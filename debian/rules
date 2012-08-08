@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+DEB_DIVERT_EXTENSION = .canaima
+# Replace some base files with simple replacements.
+DEB_DIVERT_FILES_canaima-rivendell-init += \
+        /etc/default/rivendell.canaima         
+# These files are installed via dh_install from the files/ directory
+# (see debian/canaima-rivendell-init.install)
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/config-package.mk
