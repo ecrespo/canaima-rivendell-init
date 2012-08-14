@@ -1,3 +1,9 @@
+canaima-rivendell-init (0.2) unstable; urgency=low
+
+  * Fix rivendell name in /etc/default to config-package-dev.
+
+ -- Ernesto Nadir Crespo Avila <ecrespo@cenditel.gob.ve>  Tue, 14 Aug 2012 11:49:02 -0430
+
 canaima-rivendell-init (0.1) unstable; urgency=low
 
   * Initial release.

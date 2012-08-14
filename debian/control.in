@@ -7,7 +7,7 @@ Standards-Version: 3.9.2
 
 Package: canaima-rivendell-init
 Architecture: all
-Pre-Depends: canaima-caribay-video, canaima-rivendell
+Pre-Depends: canaima-rivendell
 Depends: cdbs, ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
